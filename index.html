@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive pricing</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <section>
+        <div class="topzone">
+            <div class="pages">100K PAGEVIEWS</div>
+            <div class="result">
+                <span class="amount" id="amount" >$ 16.00</span>
+                <span>/month</span>
+            </div>
+        </div>
+        <div class="main">
+            <input type="range" id="myrange" class="myrange" min="0" max="100" value="50">
+            <div class="selector" id="selector">
+                <div class="selectbtn"><></div>
+            </div>
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="choose">
+            <div class="monthly">Monthly Billing</div>
+            <div class="check">
+                <input type="checkbox" name="" class="checkbox"id="checking">
+                <label for="checking" id="label">
+                    <div class="ball" id="ball"></div>
+                </label>
+            </div>
+            <div class="yearly">Yearly Billing</div>
+            <div class="discount">
+                <span>25%</span>
+                <span class="distext">discount</span>
+            </div>
+        </div>
+        <footer>
+            <div class="verify">
+                <div class="first">
+                    <span class="vicon"><i class="fas fa-chevron-down"></i></span>
+                    <span>Unlimited websites</span>
+                </div>
+                <div class="second">
+                    <span class="vicon"><i class="fas fa-chevron-down"></i></span>
+                    <span>100% data ownership</span>
+                </div>
+                <div class="third">
+                    <span class="vicon"><i class="fas fa-chevron-down"></i></span>
+                    <span> Email reports</span>
+                </div>
+            </div>
+            <div class="start">Start my trial</div>
+        </footer>
+        
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
